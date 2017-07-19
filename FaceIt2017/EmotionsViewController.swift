@@ -21,6 +21,5 @@ class EmotionsViewController: VCLLoggingViewController {
     "happy" : FacialExpression(eyes: .open, mouth: .smile),
     "worried" : FacialExpression(eyes: .open, mouth: .smirk)
   ]
-  
-  
+
 }
