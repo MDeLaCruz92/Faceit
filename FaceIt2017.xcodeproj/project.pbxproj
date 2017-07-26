@@ -10,13 +10,14 @@
 		8207BF8B1EE36AC800F1550F /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8207BF8A1EE36AC800F1550F /* FacialExpression.swift */; };
 		8207BFAB1EE6278E00F1550F /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8207BFAA1EE6278E00F1550F /* EmotionsViewController.swift */; };
 		8212C6441EE7381C0080CE1A /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8212C6431EE7381C0080CE1A /* VCLLoggingViewController.swift */; };
+		821908641F27893200AE24A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821908601F27872400AE24A8 /* Main.storyboard */; };
+		821908651F27893900AE24A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821908621F27875E00AE24A8 /* LaunchScreen.storyboard */; };
+		821908671F27905300AE24A8 /* ExpressionEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821908661F27905300AE24A8 /* ExpressionEditorViewController.swift */; };
 		82528B1E1F1EB2F900D67F1A /* BlinkingFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82528B1D1F1EB2F900D67F1A /* BlinkingFaceViewController.swift */; };
 		82528B201F1EBD7500D67F1A /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82528B1F1F1EBD7500D67F1A /* EyeView.swift */; };
 		8264FDF91EC771A800546285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264FDF81EC771A800546285 /* AppDelegate.swift */; };
 		8264FDFB1EC771A800546285 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264FDFA1EC771A800546285 /* FaceViewController.swift */; };
-		8264FDFE1EC771A800546285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8264FDFC1EC771A800546285 /* Main.storyboard */; };
 		8264FE001EC771A800546285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8264FDFF1EC771A800546285 /* Assets.xcassets */; };
-		8264FE031EC771A800546285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8264FE011EC771A800546285 /* LaunchScreen.storyboard */; };
 		8264FE0C1EC7720100546285 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8264FE0B1EC7720100546285 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,14 +25,15 @@
 		8207BF8A1EE36AC800F1550F /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		8207BFAA1EE6278E00F1550F /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 		8212C6431EE7381C0080CE1A /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
+		821908611F27872400AE24A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		821908631F27875E00AE24A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		821908661F27905300AE24A8 /* ExpressionEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionEditorViewController.swift; sourceTree = "<group>"; };
 		82528B1D1F1EB2F900D67F1A /* BlinkingFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkingFaceViewController.swift; sourceTree = "<group>"; };
 		82528B1F1F1EBD7500D67F1A /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 		8264FDF51EC771A800546285 /* FaceIt2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8264FDF81EC771A800546285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8264FDFA1EC771A800546285 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
-		8264FDFD1EC771A800546285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8264FDFF1EC771A800546285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8264FE021EC771A800546285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8264FE041EC771A800546285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8264FE0B1EC7720100546285 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +75,8 @@
 				8207BF8A1EE36AC800F1550F /* FacialExpression.swift */,
 				8264FE0B1EC7720100546285 /* FaceView.swift */,
 				82528B1F1F1EBD7500D67F1A /* EyeView.swift */,
-				8264FDFC1EC771A800546285 /* Main.storyboard */,
+				821908601F27872400AE24A8 /* Main.storyboard */,
+				821908661F27905300AE24A8 /* ExpressionEditorViewController.swift */,
 				8264FE0A1EC771D600546285 /* Supporting Files */,
 			);
 			path = FaceIt2017;
@@ -82,9 +85,9 @@
 		8264FE0A1EC771D600546285 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				821908621F27875E00AE24A8 /* LaunchScreen.storyboard */,
 				8264FDF81EC771A800546285 /* AppDelegate.swift */,
 				8264FDFF1EC771A800546285 /* Assets.xcassets */,
-				8264FE011EC771A800546285 /* LaunchScreen.storyboard */,
 				8264FE041EC771A800546285 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -150,9 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8264FE031EC771A800546285 /* LaunchScreen.storyboard in Resources */,
+				821908651F27893900AE24A8 /* LaunchScreen.storyboard in Resources */,
 				8264FE001EC771A800546285 /* Assets.xcassets in Resources */,
-				8264FDFE1EC771A800546285 /* Main.storyboard in Resources */,
+				821908641F27893200AE24A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +172,7 @@
 				8207BFAB1EE6278E00F1550F /* EmotionsViewController.swift in Sources */,
 				82528B1E1F1EB2F900D67F1A /* BlinkingFaceViewController.swift in Sources */,
 				8264FDF91EC771A800546285 /* AppDelegate.swift in Sources */,
+				821908671F27905300AE24A8 /* ExpressionEditorViewController.swift in Sources */,
 				82528B201F1EBD7500D67F1A /* EyeView.swift in Sources */,
 				8264FE0C1EC7720100546285 /* FaceView.swift in Sources */,
 			);
@@ -177,18 +181,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8264FDFC1EC771A800546285 /* Main.storyboard */ = {
+		821908601F27872400AE24A8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8264FDFD1EC771A800546285 /* Base */,
+				821908611F27872400AE24A8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8264FE011EC771A800546285 /* LaunchScreen.storyboard */ = {
+		821908621F27875E00AE24A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8264FE021EC771A800546285 /* Base */,
+				821908631F27875E00AE24A8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -299,6 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelD.FaceIt2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -312,6 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelD.FaceIt2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
