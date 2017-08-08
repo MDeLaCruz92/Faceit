@@ -72,10 +72,30 @@
 		8219086B1F2AE3E100AE24A8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				822DEB741F395E1700832961 /* Storyboards */,
 				8264FE0B1EC7720100546285 /* FaceView.swift */,
 				82528B1F1F1EBD7500D67F1A /* EyeView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		822DEB731F395B7A00832961 /* Supporters */ = {
+			isa = PBXGroup;
+			children = (
+				8264FDF81EC771A800546285 /* AppDelegate.swift */,
+				8264FE041EC771A800546285 /* Info.plist */,
+				8264FDFF1EC771A800546285 /* Assets.xcassets */,
+			);
+			path = Supporters;
+			sourceTree = "<group>";
+		};
+		822DEB741F395E1700832961 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				821908601F27872400AE24A8 /* Main.storyboard */,
+				821908621F27875E00AE24A8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		8264FDEC1EC771A800546285 = {
@@ -100,21 +120,9 @@
 				821908691F2AE3C000AE24A8 /* Model */,
 				8219086A1F2AE3D400AE24A8 /* Controller */,
 				8219086B1F2AE3E100AE24A8 /* View */,
-				821908601F27872400AE24A8 /* Main.storyboard */,
-				8264FE0A1EC771D600546285 /* Supporting Files */,
+				822DEB731F395B7A00832961 /* Supporters */,
 			);
 			path = FaceIt2017;
-			sourceTree = "<group>";
-		};
-		8264FE0A1EC771D600546285 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				821908621F27875E00AE24A8 /* LaunchScreen.storyboard */,
-				8264FDF81EC771A800546285 /* AppDelegate.swift */,
-				8264FDFF1EC771A800546285 /* Assets.xcassets */,
-				8264FE041EC771A800546285 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UP5S927B5L;
-				INFOPLIST_FILE = FaceIt2017/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FaceIt2017/Supporters/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelD.FaceIt2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,7 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UP5S927B5L;
-				INFOPLIST_FILE = FaceIt2017/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FaceIt2017/Supporters/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MichaelD.FaceIt2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
