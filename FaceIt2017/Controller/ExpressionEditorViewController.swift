@@ -42,6 +42,26 @@ class ExpressionEditorViewController: UITableViewController, UITextFieldDelegate
         }
     }
     
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if identifier == "Add Emotion", name.isEmpty {
+            handleUnnamedFace()
+            return false
+        } else {
+            return super.shouldPerformSegue(withIdentifier: identifier, sender: sender)
+        }
+    }
+    
+    private func handleUnnamedFace() {
+        let alert = UIAlertController(title: "Invalid Face", message: "A face must have name.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            self.nameTextField?.text = alert.textFields?.first?.text
+            self.performSegue(withIdentifier: "Add Emotion", sender: nil)
+        }))
+        alert.addTextField(configurationHandler: nil)
+        present(alert, animated: true)
+    }
+    
+    // MARK: View Controller Lifecycle
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if let popoverPresentationController = navigationController?.popoverPresentationController {
@@ -64,6 +84,7 @@ class ExpressionEditorViewController: UITableViewController, UITextFieldDelegate
         }
     }
     
+    // MARK:
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
@@ -72,10 +93,8 @@ class ExpressionEditorViewController: UITableViewController, UITextFieldDelegate
     @IBAction func cancel(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
-    
 
 }
-
 
 extension UITableView
 {

@@ -49,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		821908691F2AE3C000AE24A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8207BF8A1EE36AC800F1550F /* FacialExpression.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8219086A1F2AE3D400AE24A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8264FDFA1EC771A800546285 /* FaceViewController.swift */,
+				82528B1D1F1EB2F900D67F1A /* BlinkingFaceViewController.swift */,
+				8207BFAA1EE6278E00F1550F /* EmotionsViewController.swift */,
+				8212C6431EE7381C0080CE1A /* VCLLoggingViewController.swift */,
+				821908661F27905300AE24A8 /* ExpressionEditorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8219086B1F2AE3E100AE24A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8264FE0B1EC7720100546285 /* FaceView.swift */,
+				82528B1F1F1EBD7500D67F1A /* EyeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8264FDEC1EC771A800546285 = {
 			isa = PBXGroup;
 			children = (
@@ -68,15 +97,10 @@
 		8264FDF71EC771A800546285 /* FaceIt2017 */ = {
 			isa = PBXGroup;
 			children = (
-				8264FDFA1EC771A800546285 /* FaceViewController.swift */,
-				82528B1D1F1EB2F900D67F1A /* BlinkingFaceViewController.swift */,
-				8207BFAA1EE6278E00F1550F /* EmotionsViewController.swift */,
-				8212C6431EE7381C0080CE1A /* VCLLoggingViewController.swift */,
-				8207BF8A1EE36AC800F1550F /* FacialExpression.swift */,
-				8264FE0B1EC7720100546285 /* FaceView.swift */,
-				82528B1F1F1EBD7500D67F1A /* EyeView.swift */,
+				821908691F2AE3C000AE24A8 /* Model */,
+				8219086A1F2AE3D400AE24A8 /* Controller */,
+				8219086B1F2AE3E100AE24A8 /* View */,
 				821908601F27872400AE24A8 /* Main.storyboard */,
-				821908661F27905300AE24A8 /* ExpressionEditorViewController.swift */,
 				8264FE0A1EC771D600546285 /* Supporting Files */,
 			);
 			path = FaceIt2017;
